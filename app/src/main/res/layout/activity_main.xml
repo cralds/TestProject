@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/main_bg_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.test.view.PwdEditText
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="20dp"
+        android:cursorVisible="false"
+        android:inputType="number"
+        android:maxLength="6"/>
+    <com.test.view.PasswordInputView
+        android:id="@+id/passwordInputView"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="25dp"
+        android:cursorVisible="false"
+        android:inputType="number"
+        android:maxLength="6"
+        app:pivPasswordLength="6"
+        app:pivBorderColor="#cccccc"
+        app:pivBorderWidth="10dp"
+        app:pivPasswordColor="#cccccc"
+
+        app:pivPasswordWidth="10dp"
+    />
+    <TextView
+        android:id="@+id/tv_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/app_name"/>
+    <com.test.view.MyShadowView
+        android:id="@+id/myshowview"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+    <com.test.view.RippleBackground
+        android:id="@+id/ripple"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rb_color="@color/rip_line"
+        app:rb_duration="3000"
+        app:rb_radius="50dp"
+        app:rb_rippleAmount="3"
+        app:rb_scale="3"
+        app:rb_type="strokeRipple">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/iv_soundpay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/soundpay_selector" />
+        </FrameLayout>
+
+    </com.test.view.RippleBackground>
+</LinearLayout>

@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
+
+    defaultConfig {
+        applicationId "com.example.administrator.testproject"
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+task makeJar(type: Copy) {
+    delete 'build/libs/mysdk.jar'
+    from('build/intermediates/bundles/release/')
+    into('build/libs/')
+    include('classes.jar')
+    rename ('classes.jar', 'mysdk.jar')
+}
+
+makeJar.dependsOn(build)
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'org.xutils:xutils:3.3.36'
+    compile 'com.android.support:design:24.0.0'
+    compile 'com.android.support:recyclerview-v7:24.0.0'
+    compile 'com.facebook.fresco:fresco:0.9.0'
+    compile project(':myplayerlib')
+    compile project(':material')
+    compile files('libs/gson-2.3.1.jar')
+    compile files('libs/passguard.jar')
+    compile files('libs/HIGI_DFP_1.11.jar')
+}

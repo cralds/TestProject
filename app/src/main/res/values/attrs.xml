@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RippleBackground">
+        <attr name="rb_color" format="color" />
+        <attr name="rb_strokeWidth" format="dimension"/>
+        <attr name="rb_radius" format="dimension"/>
+        <attr name="rb_duration" format="integer"/>
+        <attr name="rb_rippleAmount" format="integer"/>
+        <attr name="rb_scale" format="float"/>
+        <attr name="rb_type" format="enum">
+            <enum name="fillRipple" value="0"/>
+            <enum name="strokeRipple" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PasswordInputView">
+        <attr name="pivBorderColor" format="color"/>
+        <attr name="pivBorderWidth" format="dimension"/>
+        <attr name="pivBorderRadius" format="dimension"/>
+        <attr name="pivPasswordColor" format="color"/>
+        <attr name="pivPasswordWidth" format="dimension"/>
+        <attr name="pivPasswordRadius" format="dimension"/>
+        <attr name="pivPasswordLength" format="integer"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="WeekView">
+        <attr name="wv_backgroundColor" format="reference|color"/>
+        <attr name="wv_verticalPadding" format="reference|dimension"/>
+        <attr name="wv_horizontalPadding" format="reference|dimension"/>
+        <attr name="wv_animDuration" format="reference|integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ContactView">
+        <attr name="cv_buttonSrc" format="reference"/>
+        <attr name="cv_buttonSize" format="reference|dimension"/>
+        <attr name="cv_avatarSrc" format="reference"/>
+        <attr name="cv_avatarSize" format="reference|dimension"/>
+        <attr name="cv_spacing" format="reference|dimension"/>
+        <attr name="cv_name" format="reference|string"/>
+        <attr name="cv_nameTextAppearance" format="reference"/>
+        <attr name="cv_nameTextSize" format="reference|dimension"/>
+        <attr name="cv_nameTextColor" format="reference|color"/>
+        <attr name="cv_address" format="reference|string"/>
+        <attr name="cv_addressTextAppearance" format="reference"/>
+        <attr name="cv_addressTextSize" format="reference|dimension"/>
+        <attr name="cv_addressTextColor" format="reference|color"/>
+        <attr name="android:minHeight" />
+    </declare-styleable>
+
+    <declare-styleable name="ContactEditText">
+        <attr name="cet_spanHeight" format="reference|dimension"/>
+        <attr name="cet_spanMaxWidth" format="reference|dimension"/>
+        <attr name="cet_spanPaddingLeft" format="reference|dimension"/>
+        <attr name="cet_spanPaddingRight" format="reference|dimension"/>
+        <attr name="cet_spanFontFamily" format="reference|string"/>
+        <attr name="cet_spanTextStyle" format="integer">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+            <enum name="bold_italic" value="3" />
+        </attr>
+        <attr name="cet_spanTextSize" format="reference|dimension"/>
+        <attr name="cet_spanTextColor" format="reference|color"/>
+        <attr name="cet_spanBackgroundColor" format="reference|color"/>
+        <attr name="cet_spanSpacing" format="reference|dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="card">
+        <attr name="bottomMarginTop" format="dimension" />
+        <attr name="yOffsetStep" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CardStackView">
+        <attr name="stackOverlapGaps" format="dimension"/>
+        <attr name="stackOverlapGapsCollapse" format="dimension"/>
+        <attr name="stackHeaderHeight" format="dimension"/>
+        <attr name="stackDuration" format="integer"/>
+        <attr name="stackNumBottomShow" format="integer"/>
+        <attr name="stackAnimationType">
+            <flag name="allDown" value="0" />
+            <flag name="upDown" value="1" />
+            <flag name="upDownStack" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="WaveProgressView">
+        <attr name="radius" format="dimension|reference" />
+        <attr name="radius_color" format="color|reference" />
+        <attr name="progress_text_color" format="color|reference" />
+        <attr name="progress_text_size" format="dimension|reference" />
+        <attr name="progress_color" format="color|reference" />
+        <attr name="progress" format="float" />
+        <attr name="maxProgress" format="float" />
+    </declare-styleable>
+
+
+
+</resources>

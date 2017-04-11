@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#FF0000</color>
+    <color name="rippelColor">#FFFFFF</color>
+    <color name="rip_line">#2cb1e9</color>
+    <color name="main_bg_color">#f5f4f9</color>
+    <color name="cccccc">#CCCCCC</color>
+
+    <color name="main_bgcolor">#f4f4f4</color>
+
+
+    <color name="colorPrimary">#FF03A9F4</color>
+    <color name="colorPrimaryDark">#ff0171c9</color>
+    <color name="colorAccent">#FF00E5FF</color>
+    <color name="colorControlNormal">#FF78909C</color>
+    <color name="colorControlActivated">#FF03A9F4</color>
+    <color name="colorSwitchThumbNormal">#FF78909C</color>
+
+    <color name="colorPrimaryQuarter">#3303A9F4</color>
+    <color name="colorPrimaryHalf">#9003A9F4</color>
+    <color name="colorControlNormalHalf">#9078909C</color>
+    <color name="colorControlActivatedHalf">#9003A9F4</color>
+    <color name="colorAccentQuarter">#3300E5FF</color>
+    <color name="colorAccentHalf">#9000E5FF</color>
+
+    <array name="progress_colors_light">
+        <item>#FF03A9F4</item>
+        <item>#FFD8433C</item>
+        <item>#FFF2AF3A</item>
+        <item>#FF279B5E</item>
+    </array>
+
+    <array name="progress_colors_dark">
+        <item>#FF00E5FF</item>
+        <item>#ffd81d5a</item>
+        <item>#fff27512</item>
+        <item>#ff63bc34</item>
+    </array>
+
+    <array name="in_colors_light">
+        <item>#4B03A9F4</item>
+        <item>#3303A9F4</item>
+        <item>#1903A9F4</item>
+    </array>
+
+    <array name="in_colors_dark">
+        <item>#4B00E5FF</item>
+        <item>#3300E5FF</item>
+        <item>#1900E5FF</item>
+    </array>
+
+    <color name="tpi_checked">#FFFFFFFF</color>
+    <color name="tpi_unchecked">#99FFFFFF</color>
+
+    <color name="et_divider_focused">@color/colorControlActivated</color>
+    <color name="et_divider_not_focused">#FF6D6D6D</color>
+    <color name="et_divider_disable">#FFC1C1C1</color>
+
+    <!--cardview start-->
+    <color name="color_1">#EF9A9A</color>
+    <color name="color_2">#E53935</color>
+    <color name="color_3">#F8BBD0</color>
+    <color name="color_4">#D81B60</color>
+    <color name="color_5">#880E4F</color>
+    <color name="color_6">#CE93D8</color>
+    <color name="color_7">#8E24AA</color>
+    <color name="color_8">#4A148C</color>
+    <color name="color_9">#B39DDB</color>
+    <color name="color_10">#673AB7</color>
+    <color name="color_11">#311B92</color>
+    <color name="color_12">#3D5AFE</color>
+    <color name="color_13">#29B6F6</color>
+    <color name="color_14">#26C6DA</color>
+    <color name="color_15">#26A69A</color>
+    <color name="color_16">#4CAF50</color>
+    <color name="color_17">#8BC34A</color>
+    <color name="color_18">#CDDC39</color>
+    <color name="color_19">#FFEB3B</color>
+    <color name="color_20">#FFC107</color>
+    <color name="color_21">#FF9800</color>
+    <color name="color_22">#FF5722</color>
+    <color name="color_23">#795548</color>
+    <color name="color_24">#9E9E9E</color>
+    <color name="color_25">#607D8B</color>
+    <color name="color_26">#000000</color>
+    <!--cardview end-->
+</resources>
