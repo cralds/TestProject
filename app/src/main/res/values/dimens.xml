@@ -7,5 +7,5 @@
     <dimen name="rippleRadius">64dp</dimen>
 
     <dimen name="shape_rectangle_with_radius">16dp</dimen>
-
+    <dimen name="cpb_stroke_width">4dp</dimen>
 </resources>
